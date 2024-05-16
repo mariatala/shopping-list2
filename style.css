@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ccc;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 50vw;
+}
+
+header, .form-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+
+}
+header{
+    padding: 0.8rem 0;  
+}
+
+header h1{
+    margin-left: 1rem;
+}
+
+.form-item{
+    background-color: #cacacd;
+    border: 1px solid #9b9999;
+    align-items: center;
+    border-radius:5px;
+    font-size: 1.2rem;
+}
+
+#add-btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    width: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#filter-item{
+    border: none;
+    border-bottom: 1px solid #9b9999;
+    border-radius: 0;
+}
+
+.list-items{
+    list-style: none;
+    width: 100%;
+}
+
+.list-items li{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cacacd;
+    border: 1px solid #9b9999;
+    border-radius: 5px;
+}
+
+
+.list-items button{
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    color:red;
+}
